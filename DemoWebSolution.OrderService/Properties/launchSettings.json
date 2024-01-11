@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DemoWebSolution.OrderService": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
