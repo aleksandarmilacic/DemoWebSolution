@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  demowebsolution.orderservice:
+    image: ${DOCKER_REGISTRY-}demowebsolutionorderservice
+    build:
+      context: .
+      dockerfile: DemoWebSolution.OrderService/Dockerfile

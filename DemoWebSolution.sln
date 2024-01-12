@@ -5,11 +5,16 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoWebSolution.Api", "DemoWebSolution.Api\DemoWebSolution.Api.csproj", "{B79035E3-B5AC-48D8-B0DF-F31ECD7BEB35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebSolution.MicroServiceDemo1", "DemoWebSolution.MicroServiceDemo1\DemoWebSolution.MicroServiceDemo1.csproj", "{4F22FAF6-52BC-4490-9686-44B47E79381B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoWebSolution.MicroServiceDemo1", "DemoWebSolution.MicroServiceDemo1\DemoWebSolution.MicroServiceDemo1.csproj", "{4F22FAF6-52BC-4490-9686-44B47E79381B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebSolution.OrderService", "DemoWebSolution.OrderService\DemoWebSolution.OrderService.csproj", "{3DA70AF4-316A-4BF1-B238-083EEC16B3BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoWebSolution.OrderService", "DemoWebSolution.OrderService\DemoWebSolution.OrderService.csproj", "{3DA70AF4-316A-4BF1-B238-083EEC16B3BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{F7344FD8-8810-4FB3-8859-D9295F2B55BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{F7344FD8-8810-4FB3-8859-D9295F2B55BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{543CA4EC-989E-4EC8-9936-FF0654BAE1A6}"
+	ProjectSection(SolutionItems) = preProject
+		yaml_deploy.txt = yaml_deploy.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
